@@ -1,0 +1,15 @@
+//
+//  WatHomeClassGoodsModel.m
+//  wat
+//
+//  Created by 123 on 2018/7/2.
+//  Copyright © 2018年 wat0801. All rights reserved.
+//
+
+#import "WatHomeClassGoodsModel.h"
+
+@implementation WatHomeClassGoodsModel
++ (NSDictionary *)modelCustomPropertyMapper {
+    return @{@"subTitle" : @"description"};
+}
+@end

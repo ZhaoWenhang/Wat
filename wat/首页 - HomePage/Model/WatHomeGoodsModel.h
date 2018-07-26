@@ -1,0 +1,19 @@
+//
+//  WatHomeGoodsModel.h
+//  wat
+//
+//  Created by apple on 2018/6/14.
+//  Copyright © 2018年 wat0801. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+#import "WatHomeGoodsDetailsModel.h"
+
+@interface WatHomeGoodsModel : NSObject
+
+@property (nonatomic, strong) NSArray<WatHomeGoodsDetailsModel *> *list;
+
+@property (nonatomic, copy) NSString *column_name;
+
+@end
